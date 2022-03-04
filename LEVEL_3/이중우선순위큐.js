@@ -12,7 +12,7 @@ function solution(operations) {
             answer.pop()
         }
         
-        // if 최솟값 삭제
+        // if 최솟값 삭제 //
         else if (operations[i][0] == 'D' && operations[i][2] == '-' && operations[i][3] == '1' && operations.length > 0){
             
             answer.shift()            

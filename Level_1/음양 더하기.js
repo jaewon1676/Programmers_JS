@@ -10,6 +10,6 @@ function solution(absolutes, signs) {
             answer = answer + absolutes[i]
         }
     }
-    
+    // 주석 추가 테스트
     return answer;
 }
